@@ -1,5 +1,6 @@
 # MAD-LIB-GAME
 Create your own hilarious story with this fun and quick fill-in-the-blank game — just add your words and watch the madness unfold!
+
 WHAT IS A MAD-LIB GAME?
 
 Imagine being asked to blurt out a bunch of random words like an animal, a weird food, or a silly exclamation — without knowing what they’re for. Then suddenly, those words pop up in a super ridiculous and funny story. That’s Mad Libs!
