@@ -1,0 +1,75 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        // MAD LIBS GAME
+        Scanner scanner = new Scanner(System.in);
+
+        String emotion;
+        String animal;
+        String kitchenObject;
+        String sillyObject;
+        String sillyExclamation;
+        String petAnimal;
+        String food1;
+        String weirdFood;
+        String funnyDance;
+        String material;
+        String adjective;
+        String bodyPart;
+        String mystery;
+        String land;
+        String object;
+        String food2;
+        String vehicle;
+
+        System.out.print("Enter an emotion: ");
+        emotion = scanner.nextLine();
+        System.out.print("Enter an animal: ");
+        animal = scanner.nextLine();
+        System.out.print("Enter a kitchen object: ");
+        kitchenObject = scanner.nextLine();
+        System.out.print("Enter a silly object: ");
+        sillyObject = scanner.nextLine();
+        System.out.print("Enter a silly exclamation: ");
+        sillyExclamation = scanner.nextLine();
+        System.out.print("Enter a pet animal: ");
+        petAnimal = scanner.nextLine();
+        System.out.print("Enter a food (1): ");
+        food1 = scanner.nextLine();
+        System.out.print("Enter a weird food: ");
+        weirdFood = scanner.nextLine();
+        System.out.print("Enter a funny dance: ");
+        funnyDance = scanner.nextLine();
+        System.out.print("Enter a material: ");
+        material = scanner.nextLine();
+        System.out.print("Enter an adjective: ");
+        adjective = scanner.nextLine();
+        System.out.print("Enter a body part: ");
+        bodyPart = scanner.nextLine();
+        System.out.print("Enter a mysterious thing: ");
+        mystery = scanner.nextLine();
+        System.out.print("Enter a utopian land: ");
+        land = scanner.nextLine();
+        System.out.print("Enter an object: ");
+        object = scanner.nextLine();
+        System.out.print("Enter a food (2): ");
+        food2 = scanner.nextLine();
+        System.out.print("Enter a vehicle: ");
+        vehicle = scanner.nextLine();
+
+        // Mad Lib Story
+        System.out.println("\nThe Day I Turned Into a " + animal);
+        System.out.println();
+        System.out.println("One day, I woke up feeling really " + emotion + ", and when I looked in the mirror, I realized I had turned into a giant " + animal + ".");
+        System.out.println("My nose was now shaped like a " + kitchenObject + " and my arms flopped around like two " + sillyObject + ".");
+        System.out.println("I screamed, \"" + sillyExclamation + "!\", which caused my pet " + petAnimal + " to faint dramatically into a bowl of " + food1 + ".");
+        System.out.println("At school, everyone stared at me like I had just eaten a " + weirdFood + " while dancing the " + funnyDance + " in a tutu made of " + material + ".");
+        System.out.println("The teacher said, \"You may be a " + adjective + " " + animal + ", but you still have to take the math test.\"");
+        System.out.println("So I used my " + bodyPart + " to write answers and accidentally solved the secret formula for " + mystery + ".");
+        System.out.println("By the end of the day, I was crowned king/queen of " + land + ", given a royal " + object + ", and allowed to eat unlimited " + food2 + " while riding a " + vehicle + " into the sunset.");
+        System.out.println("The moral of the story: Never eat " + weirdFood + " before bedtime.");
+
+        scanner.close();
+    }
+}
